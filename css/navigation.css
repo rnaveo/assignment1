@@ -1,0 +1,29 @@
+.menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-around;
+}
+.menu a{
+	display: block;
+	padding: 5px 10px;
+	color: black;
+	background-color: #b93a32;
+}
+.menu li{
+	border: 1px solid black;
+}
+.menu a:hover{
+	color: #b93a32;
+	background-color: black;
+}
+.menu a.is-current{
+	color: #b93a32;
+	background-color: orange;
+}
+@media(max-width: 375px){
+	.menu li{
+		margin-bottom: 5px;
+	}
+}
